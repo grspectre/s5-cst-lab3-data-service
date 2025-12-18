@@ -1,0 +1,6 @@
+ru\rksp\shanaurin\data\api\DefaultApi.class
+ru\rksp\shanaurin\data\model\UserEvent.class
+ru\rksp\shanaurin\data_service\UserEventRepository.class
+ru\rksp\shanaurin\data\api\ApiUtil.class
+ru\rksp\shanaurin\data_service\DataServiceApplication.class
+ru\rksp\shanaurin\data_service\UserEvent.class

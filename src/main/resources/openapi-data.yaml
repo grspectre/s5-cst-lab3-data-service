@@ -1,0 +1,27 @@
+openapi: 3.0.3
+info:
+  title: UserEvent Reader API
+  version: 1.0.0
+
+paths:
+  /events:
+    get:
+      responses:
+        '200':
+          description: Получение списка событий
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/UserEvent'
+components:
+  schemas:
+    UserEvent:
+      type: object
+      properties:
+        eventType:
+          type: string
+        eventTime:
+          type: string
+          format: date-time
